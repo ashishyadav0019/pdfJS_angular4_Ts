@@ -1,0 +1,7 @@
+<div *ngIf="view=='html'">
+  <app-html-view></app-html-view>
+</div>
+
+<div *ngIf="view=='pdf'">
+  <app-pdf-view [viewData] = "allFiles"></app-pdf-view>
+</div>
