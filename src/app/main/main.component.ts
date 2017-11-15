@@ -20,7 +20,4 @@ export class MainComponent implements OnInit {
     this.allFiles = fileData.docList;
   }
 
-  // setPdfDocObjects() {
-  //   this.pdfHandlerService.setPdfDocObjects("hi")
-  // }
 }

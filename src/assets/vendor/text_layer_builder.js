@@ -78,6 +78,7 @@ var TextLayerBuilder = (function TextLayerBuilderClosure() {
 
       this.textDivs = [];
       var textLayerFrag = document.createDocumentFragment();
+      
       this.textLayerRenderTask = PDFJS.renderTextLayer({
         textContent: this.textContent,
         container: textLayerFrag,
